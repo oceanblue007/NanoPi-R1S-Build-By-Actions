@@ -77,7 +77,7 @@ jobs:
       - name: Passwall
         run: |
           cd friendlywrt-h5/friendlywrt/package
-          git clone https://github.com/Lienol/openwrt-package/tree/master/lienol/luci-app-passwall
+          git clone https://github.com/Lienol/openwrt-package/lienol/luci-app-passwall
           
       - name: Update Target.mk
         run: |
